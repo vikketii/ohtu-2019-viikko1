@@ -94,7 +94,7 @@ public class VarastoTest {
 
     @Test
     public void varastonTulostusOikein() {
-        String oikein = "Testi ei toimi. saldo = " + 0.0 + ", vielä tilaa " + 10.0;
+        String oikein = "saldo = " + 0.0 + ", vielä tilaa " + 10.0;
         assertEquals( oikein, varasto.toString());
     }
 
